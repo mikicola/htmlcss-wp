@@ -63,10 +63,10 @@ main{
     /* background-image: url(img/banner.jpg); */
     position: relative;
     /* background-color: hsla(0, 0%, 0%, 0.5);   */
-    
+    margin-top: 1.5em;
 }
 
-h2{
+h2, h3{
     font-weight: lighter;
 }
 
@@ -77,7 +77,7 @@ h2{
 
 #banner{
     width: 800px;
-    /* height: 339px; */
+    height: 339px;
     object-fit: cover;
     filter: brightness(85%);
     border-radius: 5px;
@@ -113,6 +113,11 @@ h1{
     font-size: 1.8em;
 }
 
+h3{
+    margin-top: .5em;
+    font-size: .9em;
+}
+
 .subtitle, p{
     color: #c0c0c0;
     font-size: .9em;
@@ -121,6 +126,7 @@ h1{
 p{
     line-height: 1;
     font-size: .8em;
+    margin-top: .9em;
 }
 
 .img-sidebar, .img-central{
