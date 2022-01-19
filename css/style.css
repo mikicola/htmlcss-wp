@@ -13,7 +13,7 @@ header{
     /* height: 90px; */
     margin: auto;
     /* background-color: #E579E5; */
-    margin-top: 1em;
+    /* margin-top: 1em; */
 }
 
 #logo{
@@ -22,7 +22,7 @@ header{
 
 nav{
     text-align: left;
-    margin-top: 1em;
+    margin-top: 2em;
     font-size: .8em;
 }
 
@@ -58,8 +58,35 @@ main{
 }
 
 .upper-container{
-    height: 350px;
-    background-color: #e1d67a;
+    /* height: 350px; */
+    /* background-color: #e1d67a; */
+    /* background-image: url(img/banner.jpg); */
+    position: relative;
+    /* background-color: hsla(0, 0%, 0%, 0.5);   */
+    
+}
+
+h2{
+    font-weight: lighter;
+}
+
+p{
+    font-size: .9em;
+}
+#banner{
+    width: 800px;
+    height: 339px;
+    object-fit: cover;
+    filter: brightness(85%);
+    border-radius: 5px;
+}
+
+.banner-text{
+    position: absolute;
+    bottom: 3.5em;
+    left: 2em;
+    width: 27em;
+    color: white;
 }
 
 .lower-container{
